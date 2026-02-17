@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -66,7 +67,9 @@ export default function Hero() {
 
           <div className="relative w-[350px] h-[450px] bg-[var(--color-surface)] rounded-3xl border border-white/10 shadow-2xl overflow-hidden">
 
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src="https://images.unsplash.com/photo-1593341646782-e0b495cff86d"
               alt="Sports Equipment"
               className="w-full h-full object-cover"

@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import Image from "next/image";
 
 const products = [
   {
@@ -79,7 +80,9 @@ export default function BestSellers() {
               <div className="group bg-[var(--color-bg)] rounded-2xl border border-white/10 overflow-hidden hover:border-[var(--color-primary)] transition duration-300">
 
                 <div className="overflow-hidden">
-                  <img
+                  <Image
+                  width={1000}
+                  height={1000}
                     src={product.image}
                     alt={product.name}
                     className="w-full h-56 object-cover group-hover:scale-105 transition duration-500"

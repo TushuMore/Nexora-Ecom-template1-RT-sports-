@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         {/* Newsletter */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold">
             Subscribe to our newsletter
           </h3>
@@ -86,12 +86,12 @@ export default function Footer() {
               Subscribe
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Strip */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+        <div className=" pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <p>© {new Date().getFullYear()} RT Sports. All rights reserved.</p>
-          <p>Designed for Champions.</p>
+          <p>Designed for Champions | Nexoras Product.</p>
         </div>
 
       </div>

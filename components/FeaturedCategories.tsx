@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 const categories = [
@@ -46,7 +47,9 @@ export default function FeaturedCategories() {
               href={cat.link}
               className="group relative overflow-hidden rounded-2xl border border-white/10 bg-[var(--color-surface)]"
             >
-              <img
+              <Image
+              width={1000}
+              height={1000}
                 src={cat.image}
                 alt={cat.name}
                 className="w-full h-72 object-cover group-hover:scale-110 transition duration-500"
